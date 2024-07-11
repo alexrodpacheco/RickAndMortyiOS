@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				826DBE082C3EBAE10053F47C /* Resources */,
-				826DBE072C3EBAB00053F47C /* HomeViewController */,
+				826DBE072C3EBAB00053F47C /* Home */,
 				826DBDD42C3EB5590053F47C /* Assets.xcassets */,
 				826DBDD62C3EB5590053F47C /* LaunchScreen.storyboard */,
 				826DBDD92C3EB5590053F47C /* Info.plist */,
@@ -131,14 +131,14 @@
 			path = RickyAndMortyUITests;
 			sourceTree = "<group>";
 		};
-		826DBE072C3EBAB00053F47C /* HomeViewController */ = {
+		826DBE072C3EBAB00053F47C /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				826DBDCC2C3EB5540053F47C /* HomeViewController.swift */,
 				826DBE0C2C3EBB6F0053F47C /* HomeModel.swift */,
 				826DBE1D2C3EBCA50053F47C /* HomeTabBarController.swift */,
 			);
-			path = HomeViewController;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		826DBE082C3EBAE10053F47C /* Resources */ = {
