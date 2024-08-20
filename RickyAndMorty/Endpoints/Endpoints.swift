@@ -1,3 +1,0 @@
-enum Endpoints {
-    case character
-}

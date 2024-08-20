@@ -17,8 +17,6 @@
 		826DBDEE2C3EB5590053F47C /* RickyAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DBDED2C3EB5590053F47C /* RickyAndMortyUITests.swift */; };
 		826DBE0D2C3EBB6F0053F47C /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DBE0C2C3EBB6F0053F47C /* HomeModel.swift */; };
 		826DBE1E2C3EBCA50053F47C /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DBE1D2C3EBCA50053F47C /* HomeTabBarController.swift */; };
-		826DBE322C4008B00053F47C /* EndpointsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DBE312C4008B00053F47C /* EndpointsRequest.swift */; };
-		826DBE372C400AA00053F47C /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DBE362C400AA00053F47C /* Endpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +53,6 @@
 		826DBDEF2C3EB5590053F47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826DBE0C2C3EBB6F0053F47C /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		826DBE1D2C3EBCA50053F47C /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
-		826DBE312C4008B00053F47C /* EndpointsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsRequest.swift; sourceTree = "<group>"; };
-		826DBE362C400AA00053F47C /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +103,6 @@
 		826DBDC72C3EB5540053F47C /* RickyAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				826DBE302C40088F0053F47C /* Endpoints */,
 				826DBE082C3EBAE10053F47C /* Resources */,
 				826DBE072C3EBAB00053F47C /* Home */,
 				826DBDD42C3EB5590053F47C /* Assets.xcassets */,
@@ -153,15 +148,6 @@
 				826DBDCA2C3EB5540053F47C /* SceneDelegate.swift */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		826DBE302C40088F0053F47C /* Endpoints */ = {
-			isa = PBXGroup;
-			children = (
-				826DBE312C4008B00053F47C /* EndpointsRequest.swift */,
-				826DBE362C400AA00053F47C /* Endpoints.swift */,
-			);
-			path = Endpoints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,10 +282,8 @@
 				826DBE0D2C3EBB6F0053F47C /* HomeModel.swift in Sources */,
 				826DBDCD2C3EB5540053F47C /* HomeViewController.swift in Sources */,
 				826DBDC92C3EB5540053F47C /* AppDelegate.swift in Sources */,
-				826DBE322C4008B00053F47C /* EndpointsRequest.swift in Sources */,
 				826DBDD32C3EB5540053F47C /* RickyAndMorty.xcdatamodeld in Sources */,
 				826DBDCB2C3EB5540053F47C /* SceneDelegate.swift in Sources */,
-				826DBE372C400AA00053F47C /* Endpoints.swift in Sources */,
 				826DBE1E2C3EBCA50053F47C /* HomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
